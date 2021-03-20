@@ -14,7 +14,7 @@
 
 			.header {
 				background-color: #f1f1f1;
-				padding: 20px;
+				padding: 0px;
 				text-align: center;
 			}
 
@@ -22,7 +22,7 @@
 				position: fixed; 
 				top: 0; 
 				width: 100%; 
-				transition: top 0.3s; 
+				transition: top 0.2s; 
 				background-color: #848484;
 			}
 
@@ -30,7 +30,7 @@
 				float: left;
 				display: block;
 				color: #f2f2f2;
-				padding: 5px 15px;
+				padding: 10px 15px;
 				text-decoration: none;
 				font-size: 10px;
 			}
@@ -57,7 +57,8 @@
 
 			.sticky + .content {
 			padding-top: 80px;
-			}
+			}	
+			
 		</style>
 </head>
 <body style="background-color:#2E2E2E;">
@@ -71,27 +72,25 @@
 	</div>
 
 	<div class="content">
-		<center><b><p style=font-size:50pt;color:white>WILLKOMMEN</p></b></center>
-		<p style=font-size:20pt;color:white>
-			<i>
-				Willkommen auf der dummen Webseite, die Polina und Ranja haben wollten!		
-
-			</i>
+		<br><br><br>
+		<div id="myDiv"><center><b><p style=font-size:40pt;color:white>WILLKOMMEN</p></b></center></div>
+		<p style="font-family:'Courier New'; font-size:20pt;color:white">
+		<br>
+		<i>
+			Du fragst dich sicherlich was das für eine Website ist, richtig? Nunja wie erkläre ich es dir...die Website wurde aus einem spezifischen Grund erstellt...<br><br>
+			
+			Vor langer langer Zeit, am 13.3.2021, war ich zusammen mit ein paar anderen Idioten auf einem Discord Server. Wir haben gelacht,getrunken und getanzen. Nichts konnte den Tag
+			verschlechtern, bis auf dieses eine böse Wort..."rothaarig". <br><br>
+			Nunja und wie Menschen so drauf sind, kommt es zu einer Kettenreaktion, wo alle Leute aufeinmal anfangen, den "Rothaarigen" zu beleidigen. Diese Website ist nur da,
+			damit die Leute, die mal eine Beleidigung während meines Aufenthalts über mich gebracht haben, sich die Witze nochmals durchlesen können. 
+			Ich bitte euch dies nicht ernst zu nehmen, da ich selbst drüber lachen kann und sie es nicht ernst meinen!
+			
+			
+			</i>	
 		</p>
+		<p style="font-family:'Courier New'; font-size:20pt;color:#2E2E2E"> Ich hasse euch alle! Kappa <br><br><br> </p>
 </div>
 
-	<script>
-		var prevScrollpos = window.pageYOffset;
-		window.onscroll = function() {
-			var currentScrollPos = window.pageYOffset;
-			if (prevScrollpos > currentScrollPos) {
-				document.getElementById("navbar").style.top = "0";
-			} else {
-				document.getElementById("navbar").style.top = "-100px";
-			}
-			prevScrollpos = currentScrollPos;
-		}
-	</script>
 
 </body>
 </html>
