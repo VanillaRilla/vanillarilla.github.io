@@ -90,7 +90,18 @@
 		</p>
 		<p style="font-family:'Courier New'; font-size:20pt;color:#2E2E2E"> Ich hasse euch alle! Kappa <br><br><br> </p>
 </div>
-
+<script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+			var currentScrollPos = window.pageYOffset;
+			if (prevScrollpos > currentScrollPos) {
+				document.getElementById("navbar").style.top = "0";
+			} else {
+				document.getElementById("navbar").style.top = "-100px";
+			}
+			prevScrollpos = currentScrollPos;
+		}
+	</script>
 
 </body>
 </html>
